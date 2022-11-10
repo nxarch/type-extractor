@@ -1,0 +1,9 @@
+{
+    "watch": ["tools/interface-generator/**"],
+    "ext": "js,ts,json",
+    "ignore": ["src/**/*.spec.ts"],
+    "execMap": {
+        "js": "node",
+        "ts": "./node_modules/.bin/ts-node"
+    }
+}
